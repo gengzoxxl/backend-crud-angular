@@ -6,7 +6,7 @@ const getUsers = async (req, res) => {
     try {
         const sql = 'SELECT * FROM users';
         const rows = await query(sql);
-        console.log()
+        console.log('hi im jame')
         return res.status(200).send(rows);
     } catch (error) {
         console.log(error);
