@@ -13,6 +13,7 @@ const getUsers = async (req, res) => {
         console.log('hi im jame6')
         console.log('hi im fah6')
         console.log('hi im fah-new test')
+        console.log('hi im keng-new test')
         return res.status(200).send(rows);
     } catch (error) {
         console.log(error);
